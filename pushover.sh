@@ -7,9 +7,11 @@
 
 # --- User Settings ---
 # App Token 
-TOKEN="at...2b"
+# example: TOKEN="at...2b"
+TOKEN="<your app key>"
 # User Token
-USER="uZ...JQ"
+# example: USER="uZ...JQ"
+USER="<your user key>"
 
 # --- Defaults ---
 # device - user ID, group ID, user device(s)
@@ -27,7 +29,6 @@ EXPIRE=60
 # notification sound - name
 # pushover - default sound, none - silent/none
 SOUND="pushover"
-
 # message format html (1) or simple txt (0)
 HTML=0
 # message
@@ -35,6 +36,7 @@ MESSAGE="Check your `hostname` server - `date +\"%Y%m%d %T\"`"
 # API URL
 APIURL="https://api.pushover.net/1/messages.json"
 
+# --- Custom Param ---
 # Response file
 OUTFILE="/tmp/curlout.txt"
 # List parameter value before send the push message
