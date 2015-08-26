@@ -5,6 +5,7 @@ Pushover.net API script mini manual
 
 First steps
 -----------
+
 1. Login with your account on pushover.net
 2. Copy your user key from the pushover dashboard
 3. paste your user key to the pushover.sh script USER="<your user key>" line
@@ -17,17 +18,19 @@ First steps
 
 Script usage
 ------------
+
 You can run the script with parameters. If you don't define any parameter/value, the script send a push message with default parameter value.
 You can override the default value in the script with any parameter below:
+
 * `-d` : target device name/list (check https://pushover.net/api#identifiers)-
-+ `-t` : message title/subject
-- `-i` : message timestamp in unix timestamp format (check https://pushover.net/api#timestamp)
+* `-t` : message title/subject
+* `-i` : message timestamp in unix timestamp format (check https://pushover.net/api#timestamp)
 * `-p` : message priority (check https://pushover.net/api#priority)
-+ `-r` : retry time in seconds (min 30 sec)
-- `-e` : exipre time in seconds (max 24 hours)
+* `-r` : retry time in seconds (min 30 sec)
+* `-e` : exipre time in seconds (max 24 hours)
 * `-s` : message notification sound (check https://pushover.net/api#sounds)
-+ `-h` : message format is html or text (default text) (check https://pushover.net/api#html)
-- `-m` : message
+* `-h` : message format is html or text (default text) (check https://pushover.net/api#html)
+* `-m` : message
 
 
 Examples
