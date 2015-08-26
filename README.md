@@ -19,15 +19,15 @@ Script usage
 ------------
 You can run the script with parameters. If you don't define any parameter/value, the script send a push message with default parameter value.
 You can override the default value in the script with any parameter below:
- * `-d` : target device name/list (check https://pushover.net/api#identifiers)-
- * `-t` : message title/subject
- * `-i` : message timestamp in unix timestamp format (check https://pushover.net/api#timestamp)
- * `-p` : message priority (check https://pushover.net/api#priority)
- * `-r` : retry time in seconds (min 30 sec)
- * `-e` : exipre time in seconds (max 24 hours)
- * `-s` : message notification sound (check https://pushover.net/api#sounds)
- * `-h` : message format is html or text (default text) (check https://pushover.net/api#html)
- * `-m` : message
+* `-d` : target device name/list (check https://pushover.net/api#identifiers)-
++ `-t` : message title/subject
+- `-i` : message timestamp in unix timestamp format (check https://pushover.net/api#timestamp)
+* `-p` : message priority (check https://pushover.net/api#priority)
++ `-r` : retry time in seconds (min 30 sec)
+- `-e` : exipre time in seconds (max 24 hours)
+* `-s` : message notification sound (check https://pushover.net/api#sounds)
++ `-h` : message format is html or text (default text) (check https://pushover.net/api#html)
+- `-m` : message
 
 
 Examples
